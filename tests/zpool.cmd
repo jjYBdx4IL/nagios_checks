@@ -1,0 +1,1 @@
+type zpool_output
