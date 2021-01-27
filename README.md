@@ -2,6 +2,9 @@
 
 #### Nagios checks for: ZFS scrub/space, SMART self-test
 
+Note: it's recommended to use "export TZ=UTC LC_ALL=C" in any
+shell scripts before calling one of these tools.
+
 ### check_zpool
 
 Beta version. Use at your own risk.
@@ -59,4 +62,4 @@ Check your free pool capacity (similar to check_disk).
 
 
 --
-devel/cpp/nagios_checks@7766 (dirty)
+devel/cpp/nagios_checks@7776
